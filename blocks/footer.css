@@ -34,6 +34,9 @@
 
 .footer__social {
   display: flex;
+  margin: 0;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer__social-heading {
