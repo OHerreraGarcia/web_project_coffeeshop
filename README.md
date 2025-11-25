@@ -1,5 +1,7 @@
 # Triple Espresso
 
+# web_project_coffeeshop
+
 En este proyecto desarrollé una landing page para una cafetería ficticia llamada Triple Espresso. La idea principal es tener una página sencillaen la que una persona pueda ver qué ofrece la cafetería o hacer una reservación.
 
 La página está estructurada en varias secciones:
