@@ -1,0 +1,78 @@
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  border-style: none;
+}
+
+.form__label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form__input {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 385px;
+  height: 60px;
+  padding: 15px 20px;
+  margin-bottom: 32px;
+  border-radius: 4px;
+  border: 1px solid #838383;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__input::placeholder {
+  color: #838383;
+}
+
+.form__button {
+  color: #fff;
+  margin-top: 32px;
+  display: block;
+  width: 100%;
+  max-width: 385px;
+  height: 60px;
+  border-radius: 4px;
+  background-color: #2f80ed;
+  opacity: 1;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 100%;
+}
+
+.form__buttom:hover {
+  opacity: 70%;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.form__checkbox:checked {
+  background-color: #2f80ed;
+  background-image: url(/images/check.svg);
+}
